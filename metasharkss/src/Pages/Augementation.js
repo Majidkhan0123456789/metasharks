@@ -6,7 +6,7 @@ import Bookfreeland from '../Components/Bookfreeland'
 import Available_options from '../Components/Available_options';
 import Growthbusiness from '../Components/growthbusiness';
 import Why_chose from '../Components/Why_chose';
-// import Footer from '../Components/Footer';
+import Footer from '../Components/Footer';
 import Featured_topics from'../Components/Featured_topics'
 function Augementation() {
   return (
@@ -17,10 +17,9 @@ function Augementation() {
      <Coworker/>
      <Bookfreeland/>
      <Available_options/>
-     
      <Why_chose/>
     <Featured_topics/>
-     {/* <Footer/> */}
+     <Footer/>
      </>
   )
 }

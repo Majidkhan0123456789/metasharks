@@ -45,23 +45,23 @@ function Growthbusiness() {
                                             </div>
                                             <span className="d-block businesscard growth-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1">Frontend development</span>
                                              
-                                            <div className="dotted-border"style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}></div>
+                                            <div className="dotted-border"style={{borderBottom: '3px dashed rgba(84, 186, 243, 0.5)',  dasharray:'10px 5px'}}></div>
                                       
                                             <span className="d-block businesscard growth-span" >Backend development</span>
                                            
-                                            <div className="dotted-border"style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}></div>
+                                            <div className="dotted-border"style={{borderBottom: '3px dashed rgba(84, 186, 243, 0.5)', dasharray:'10px 5px'}}></div>
                                               
                                             <span className="d-block businesscard growth-span ">Mobile development</span>
                                             
-                                            <div className="dotted-border"style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}></div>
+                                            <div className="dotted-border"style={{borderBottom: '3px dashed rgba(84, 186, 243, 0.5)',dasharray:'10px 5px'}}></div>
                                              
                                             <span className="d-block businesscard  growth-span">SaaS development</span>
                                            
-                                            <div className="dotted-border"style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}></div>
+                                            <div className="dotted-border"style={{borderBottom: '3px dashed rgba(84, 186, 243, 0.5)',dasharray:'10px 5px'}}></div>
                                              
                                             <span className="d-block businesscard  growth-span ">Startup development</span>
                                           
-                                            <div className="dotted-border"style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}></div>
+                                            <div className="dotted-border"style={{borderBottom: '3px dashed rgba(84, 186, 243, 0.5)',}}></div>
                                             <div className="card-body business">
                                              <div className="mt-3"><span className="businesscard-span font-weight-500  " style={{fontWeight:"500"}}>Technologies</span>
                                              
@@ -90,15 +90,15 @@ function Growthbusiness() {
                                             </div>
                                             </div>
                                             <span className="d-block businesscard growth-span   ">Security & Efficiency</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(112, 93, 242, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  "  >Infinite Scalability</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(112, 93, 242, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  " >Deployment on Digital Ocean & AWS</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(112, 93, 242, 0.5)'}}></div>
                                             <span className="d-block businesscard  growth-span  "  >Fast & easy update</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(112, 93, 242, 0.5)'}}></div>
                                             <span className="d-block businesscard  growth-span  "  >Quick development</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(112, 93, 242, 0.5)'}}></div>
                                             <div className="card-body business ">
                                              <div className="mt-3"><span className="businesscard-span">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
@@ -125,9 +125,9 @@ function Growthbusiness() {
                                             </div>
                                             </div>
                                             <span className="d-block businesscard growth-span  "  >Responsive</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  "  >Accessibility</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <div className="card-body  business">
                                              <div className="mt-3"><span className="businesscard-span ">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
@@ -158,13 +158,13 @@ function Growthbusiness() {
                                             </div>
                                             </div>
                                             <span className="d-block businesscard growth-span">Cost-Effective</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  "  >Customized Expertise</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  "  >Instant hire</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <span className="d-block businesscard  growth-span  "  >Diversity</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(140, 174, 112, 0.5)'}}></div>
                                             <div className="business card-body">
                                              <div className="mt-3"><span className="businesscard-span ">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
@@ -190,11 +190,11 @@ function Growthbusiness() {
                                             </div>
                                             </div>
                                             <span className="d-block businesscard growth-span" >JavaScript development</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(255, 185, 5, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span ">Scalable Architecture</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(255, 185, 5, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span ">Fast & Reliable apps</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(255, 185, 5, 0.5)'}}></div>
                                             <div className="card-body business ">  
                                              <div className="mt-3"><span className="businesscard-span">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
@@ -222,17 +222,17 @@ function Growthbusiness() {
                                             </div>
                                             <span className="d-block businesscard growth-span ">Multiplatform 
                                             development</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span "> Scalable products</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span ">Increase your audience</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span  ">Instant hire</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <span className="d-block businesscard  growth-span ">Fast & easy update</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <span className="d-block businesscard  growth-span ">Quick development</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(102, 103, 137, 0.5)'}}></div>
                                             <div className="business card-body ">
                                              <div className="mt-3"><span className="businesscard-span ">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
@@ -259,12 +259,12 @@ function Growthbusiness() {
                                             </div>
                                             </div>
                                             <span className="d-block businesscard growth-span ">Manual & Automatic testing</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(71, 116, 200, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(71, 116, 200, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span ">Better Customer Satisfaction</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(71, 116, 200, 0.5)'}}></div>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(71, 116, 200, 0.5)'}}></div>
                                             <span className="d-block businesscard growth-span">Improve Software Quality</span>
-                                            <div className="dotted-lines" style={{borderBottom: '3px dotted rgba(71, 116, 200, 0.5)'}}></div>
-                                            <span className="d-block businesscard  growth-span  " style={{borderBottom:'3px dotted #4774C8'}}>Reduce Costs</span>
+                                            <div className="dotted-lines" style={{borderBottom: '3px dashed rgba(71, 116, 200, 0.5)'}}></div>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom:'3px dashed #4774C8'}}>Reduce Costs</span>
                                             <div className="business card-body ">
                                              <div className="mt-3"><span className="businesscard-span">Technologies</span>
                                              <img src={image11} alt="hdkjs" className='image11'/>
