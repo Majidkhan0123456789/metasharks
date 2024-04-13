@@ -1,0 +1,198 @@
+  <div className="main_container">
+                <div className="row d-flex justify-content-center g-xxl-5 g-xl-5 g-mg-0 g-lg-5">
+                    <div className="col-xxl-5 col-xl-5 col-lg-5 col-12 col-md-5 ">
+                        <div className="growth-business">
+                            <h2 className="growth heading-portion">How do we contribute to the growth of your business?</h2>
+                            <p className="growth-p">One of the first things you should know about us is that we don't do everything.<br />
+                                But what we do, we do well.</p>
+                            <p className="growth-p">Our focus is on empowering you to create
+                                exceptional software. We offer top-tier, highly
+                                skilled software creators and teams. Whether you
+                                want us to seamlessly integrate with your current
+                                team or handle an entire project independently,
+                                the choice is yours. Rest assured, we're
+                                committed to delivering excellence.</p>
+                                <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-3">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business-card-2">
+                                        <div className="card-body business">
+                                            <h1>02</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#54BAF3' }}> Custom development</h2>
+                                            <div>
+                                                <p className="businesscard growth-p  ">
+                                                Work with a development team attuned to your business goals. We provide end-to-end development services and a flexible, cross-functional team to support your project at every stage.
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span" >Key Features</span>
+                                            <span className="d-block businesscard growth-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}} >Frontend development</span>
+                                            <span className="d-block businesscard growth-span " style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}  >Backend development</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}  >Mobile development</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}  >SaaS development</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(84, 186, 243, 0.5)',}}>Startup development</span>
+                                             <div className="mt-3"><span className="businesscard-span font-weight-500  " style={{fontWeight:"500"}}>Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                            <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-3">
+                                <div className="col-12">
+                                    <div className="card business-card business-card-4">
+                                        <div className="card-body business ">
+                                            <h1>04</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#705DF2' }}> Backend development</h2>
+                                            <div>
+                                                <p className="businesscard growth-p ">
+                                                Establish a robust product foundation through secure APIs, streamlined data management, cloud migration services, and battle-tested development engineers.
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" >Key Features</span>
+                                            <span className="d-block businesscard growth-span   " style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Security & Efficiency</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Infinite Scalability</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Deployment on Digital Ocean & AWS</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Fast & easy update</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(112, 93, 242, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Quick development</span>
+                                             <div className="mt-3"><span className="businesscard-span">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-4 mb-3">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business-card-6">
+                                        <div className="card-body  business">
+                                            <h1>06</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#8CAE70' }}>Digital product design</h2>
+                                            <div>
+                                                <p className="businesscard growth-p">
+                                                Unlock the power of comprehensive digital product design, including conversion audits, business analysis, branding, UX prototyping, and UI final designs to create intuitive products that increase user engagement and support business objectives.
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" >Key Features</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Responsive</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(140, 174, 112, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Accessibility</span>
+                                             <div className="mt-3"><span className="businesscard-span ">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xxl-5 col-xl-5 col-lg-5 col-12 col-md-5">
+                        <div className="growth-business">
+                            <div className="row mt-md-3 mt-2 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-2">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business business-card-1">
+                                        <div className="card-body">
+                                            <h1>01</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#FF6651' }}>Team augmentation</h2>
+                                            <div>
+                                                <p className="businesscard growth-p ">
+                                                    We offer specialized experts or teams customized for your project, ensuring a perfect blend of skills and alignment with your goals and culture. Through close collaboration, they inject fresh energy and innovative ideas into your endeavors
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" >Key Features</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(255, 102, 81, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Cost-Effective</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(255, 102, 81, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Customized Expertise</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(255, 102, 81, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Instant hire</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(255, 102, 81, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Diversity</span>
+                                             <div className="mt-3"><span className="businesscard-span ">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-3">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business-card-3">
+                                        <div className="card-body business ">
+                                            <h1>03</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#FFB905' }}>Team augmentation</h2>
+                                            <div>
+                                                <p className="businesscard growth-p">
+                                                Elevate your project with cutting-edge frontend solutions that enhance your customers' daily experiences, incorporating the best industry practices.
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" >Key Features</span>
+                                            <span className="d-block businesscard growth-span" style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>JavaScript development</span>
+                                            <span className="d-block businesscard growth-span " style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Scalable Architecture</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(255, 185, 5, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Fast & Reliable apps</span>
+                                             
+                                             <div className="mt-3"><span className="businesscard-span">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                           
+                            <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-3">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business business-card-5">
+                                        <div className="card-body ">
+                                            <h1>05</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#666789' }}>Mobile development</h2>
+                                            <div>
+                                                <p className="businesscard growth-p">
+                                                Develop interactive mobile apps and increase user engagement with our cross-platform mobile development services.
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-2 pt-1 pb-xxl-3 pb-xl-3 pb-lg-3 pb-md-2 pb-1" >Key Features</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Multiplatform development</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}> Scalable products</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Increase your audience</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Instant hire</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Fast & easy update</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom: '3px dotted rgba(102, 103, 137, 0.5)',paddingTop: '5px', paddingBottom: '5px'}}>Quick development</span>
+                                             <div className="mt-3"><span className="businesscard-span ">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row mt-md-3 mt-3 mt-xxl-5 mb-xxl-5 mt-xl-5 mb-xl-5 mt-lg-5 mb-lg-5 mb-md-3 mb-3">
+                                <div className="col-lg-12">
+                                    <div className="card business-card business business-card-7">
+                                        <div className="card-body ">
+                                            <h1>07</h1>
+                                            <h2 className="cards heading-portion" style={{ color: '#4774C8' }}>Quality assurance</h2>
+                                            <div>
+                                                <p className="businesscard  growth-p">
+                                                Optimize your product's functionality. Detect and resolve bugs
+                                                 and conversion barriers with our manual and automated QA services.   
+                                                </p>
+                                            </div>
+                                            <span className="businesscard-span" >Key Features</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom: '3px dotted rgba(71, 116, 200, 0.5)', paddingTop: '5px', paddingBottom: '5px'}}>Manual & Automatic testing</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom:'3px dotted #4774C8',paddingTop: '5px', paddingBottom: '5px'}}>Better Customer Satisfaction</span>
+                                            <span className="d-block businesscard growth-span  " style={{borderBottom:'3px dotted #4774C8', paddingTop: '5px', paddingBottom: '5px'}}>Improve Software Quality</span>
+                                            <span className="d-block businesscard  growth-span  " style={{borderBottom:'3px dotted #4774C8'}}>Reduce Costs</span>
+                                             <div className="mt-3"><span className="businesscard-span">Technologies</span>
+                                             <img src={image11} alt="hdkjs" className='image11'/>
+                                             </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>

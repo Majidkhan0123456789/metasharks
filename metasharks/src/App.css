@@ -1,0 +1,480 @@
+*{ margin: 0; padding: 0;}
+
+.nav-toggle{display:none; width: 54px; cursor: pointer; padding: 8px 0px;} 
+
+.nav-toggle .bar { display: block; width: 29px; height: 2px; 
+background-color: rgb(10, 8, 8); margin: 5px auto; 
+transition: all 0.3s ease-in-out 0s;}
+
+.nav-toggle .bar::before{width: 29px; transform:translateY(-8px);}
+.nav-toggle .bar::after{width: 29px; transform:translateY(8px);}
+
+.nav-toggle .bar::before, .nav-toggle .bar::after{
+    content: ""; position: absolute; height: 2px;  background-color: rgb(10, 8, 8);
+    border-radius: 2px; transition: all 0.45s ease-in-out;}
+
+.main_container{max-width: 100%; width: 1290px; margin: 0px auto; 
+padding: 0px 32px; box-sizing: border-box;}
+
+.navbar{ display: flex !important; align-items: center;}
+
+.navebar-logo img{max-width: 100%; width: 200px;}
+
+.nav-elements{list-style: none !important; text-decoration: none !important; padding:0px 10px; font-weight: 500; font-size:18px !important; color: #000;}
+
+.nav-item img{width: 12px !important; max-width: 100%; vertical-align: middle;
+transition: transform 0.3s ease;cursor: pointer;}
+
+.nav-item:hover .dropdown-menu { display:flex; padding: 10px 20px; box-sizing: border-box; }
+
+.dropdown-menu {  display: none; position:absolute !important; background-color:#3467C2;
+width: auto; right: 0; padding: 30px 30px !important; box-sizing: border-box;
+top:75px; border-radius: 0px; z-index: 1;}
+
+.nav-item:hover img { transform: rotate(180deg);}
+
+.nav-item:hover  { background-color:#3467C2; color: #fff;}
+
+.nav-item:last-child:hover {
+    background-color: transparent;
+  }
+
+.nav-item:hover a {color: #fff;}
+
+.image-portion{padding-top: 70px; box-sizing: border-box;}
+
+.nav-item  {padding: 0px 15px; position: relative !important;}
+
+.heading-portion{font-size: 52px !important; font-weight: bold;
+ font-family: "Poppins"; padding-bottom: 25px; box-sizing: border-box;color:#4B4B4D;}
+
+.text-portion{padding-top: 100px; box-sizing: border-box;}
+
+.banner-p{font-size: 26px; font-weight: 400;color:#4B4B4D; 
+font-family: "Poppins"; margin-bottom: 27px;}
+
+.banner.nav-elements{font-size: 17px !important; margin-bottom: 40px;}
+.image5{max-width: 100%; width: 150px;}
+
+.sub.banner-p{font-size: 17px; color:#4B4B4D;font-family: "Poppins";}
+
+.banner-cardbox {border-radius: 10px; position: relative;}
+.banner-cardbox:nth-child(1) {z-index: 2; top:13px;}
+.banner-cardbox:nth-child(2) {z-index: 1;left:18px; right: 18px;}
+
+.image6{max-width: 100% !important; width: 100% !important; height: 100%  !important; object-fit: cover;  }
+
+ .image-portion img{max-width: 100% !important; width: 100% !important;}
+
+ .banner-cardbox{background-color:#EDF2F3;}
+
+ .timeline.banner-p{font-size: 18px !important;}
+ 
+ .extrabanner-section img{width: 100%;}
+
+ .bg-bookfreeland{background-color:#0A66C2;height:auto;padding-top: 25px;
+    padding-bottom: 30px; box-sizing: border-box;}
+
+.heading-portion.book{color:#fff; font-size: 54px; padding-bottom: 8px !important;
+ box-sizing: border-box;}
+
+.cards.heading-portion{font-size: 33px !important; padding-bottom: 2px !important;}
+.bookfreeland-span{font-size: 24px; font-weight: 500; font-family: "Poppins";}
+
+.growth-business:first-child { margin-top: 100px !important;}
+
+.sub.bookfreeland-span{ font-weight:bold; font-family: "Poppins"; font-size: 20px !important;}
+
+.business.card-body{padding-left:32px !important;  padding-right: 32px !important;}
+
+.business.card-body:nth-child(1){padding-top: 36px !important; padding-bottom: 0px !important;}
+
+.business.card-body:nth-child(2){padding-top: 0px !important; padding-bottom: 36px !important; }
+
+.growth.heading-portion{color:#4B4B4D;font-size: 38px !important; font-family: "Poppins";}
+
+.growth-p{font-weight: 400; color:#4B4B4D; font-family: "Poppins"; font-size: 21px;
+margin-top:35px; display: block;}
+
+.business-card{box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.1),-0px 18px 18px 0px rgba(0,0,0,0.1);  border-bottom-left-radius: 35px; border-bottom-right-radius: 35px;}
+
+.business-card.business-card-1{background-image: url('./images/group3.png'); background-repeat: no-repeat;
+    background-position: top right; background-size: auto 350px;}
+
+.business-card.business-card-2{background-image: url('./images/group4.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.business-card.business-card-3{background-image: url('./images/group4.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.business-card.business-card-4{background-image: url('./images/group4.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.business-card.business-card-5{background-image: url('./images/group7.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.business-card.business-card-6{background-image: url('./images/group8.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.business-card.business-card-7{background-image: url('./images/group9.png'); background-repeat: no-repeat;
+background-position: top right;background-size: auto 350px;}
+
+.businesscard-span{margin-top: 35px !important; display:block;}
+
+.business-card.business-card-3{background-image: url('./images/group5.png'); background-repeat: no-repeat; background-position: top right;}
+
+.businesscard.growth-span{padding-top: 5px; padding-bottom: 5px; font-family: "Poppins"; 
+font-size: 22px !important; display: block;     padding-left: 32px; padding-right: 32px;}
+
+.businesscard-span{font-weight: 500; color:#4B4B4D; font-family: "Poppins"; 
+font-size: 27px !important;}
+
+.image11{max-width: 100%; width: 90%;}
+
+ 
+.letsbuild{padding: 10px 10px !important; margin-bottom: 40px;}
+
+.heading-portion.letsbuildh2 {font-size: 45px !important; color:#666789; 
+padding: 0px 20px; box-sizing: border-box;}
+
+.estimate.bookfreeland-span{font-size: 24px !important; font-weight: 500;}
+
+.lh-between { line-height: 1.4;}
+
+ 
+
+ .image-slide{ display:flex !important;max-width: 100%; 
+    width: 200px; align-items: center; height: 200px;}
+
+    .featured.heading-portion { font-size: 41px !important; 
+    padding-bottom:10px; box-sizing: border-box;}
+    
+    .featured.sub-heading-portion { font-size: 28px !important; font-weight: bold;
+    font-family: "Poppins"; padding-bottom:0px; box-sizing: border-box;}
+
+    .slick-slide{ margin:0 0px;}
+
+    .slider-container{height: 500px; max-height: 100%;}
+
+    .featured.banner-p {   font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+
+.bookfreeland.slide-item{padding: 0px 7px !important;}
+
+.bookfreeland .month{font-size: 22px; font-weight: 500; color:#0A66C2; font-family: "Poppins";}
+
+.bookfreeland .day{font-size: 32px; font-weight: 500; color:#000000; font-family: "Poppins";}
+
+.bookfreeland .year{font-size: 22px; font-weight: 500; color:#0A66C2; font-family: "Poppins";}
+ 
+ 
+ 
+
+    /* #-----------------#Aurgementations Page#-----------# */
+
+.itstaff.heading-portion{font-size: 45px !important;}
+
+.itstaff.banner-p { font-size: 20px; font-weight: 400; color:#4B4B4D; 
+font-family: "Poppins"; margin-bottom: 32px; }
+
+ 
+
+ .custom-list .list-items{font-size: 20px; line-height: 30px;
+    font-family: "Poppins"; font-weight: 400;}
+
+.option.heading-portion{font-size: 25px !important;  padding-bottom: 10px !important;
+white-space:wrap; }
+
+.option.growth-p{margin-top: 0px !important; font-size: 22px;}
+
+.coworker{margin-bottom: 90px !important;}
+
+.available.heading-portion {
+    font-size: 41px !important;}
+     
+ /* #-----------------#quote Page#-----------# */
+
+.quote.card-body{padding-left: 35px !important; padding-right: 35px !important;}
+
+.quotecard-span{font-weight: 500;}
+
+.quote-cardbody{border-top: none !important;}
+@media only screen and (min-width: 200px) and (max-width:899px) {
+/* .navbar-collapse{ position: relative; } */
+ 
+.nav-toggle{display: block;}
+
+.navbar .navbar-nav{ position: fixed; top: 50px; display: none !important;
+display: none; background-color: #fff; left:-100%; width: 100%;
+height: 100vh; transform: translateX(-100%); transition: all 0.45s;z-index: 100;}
+
+ .navbar .navbar-nav.active{left: 100%; display: block !important;}
+
+.nav-toggle.active .bar{transform: translateY(5px) rotate(45deg); }
+
+.nav-toggle.active .bar::before{opacity: 0; display: none;}
+
+.nav-toggle.active .bar::after{transform: translateY(1px) rotate(81deg);}
+ 
+.nav-item { padding: 11px 20px; display: flex; justify-content: space-between;}
+
+.nav-item img { width: 9px !important; height: 5px;}
+
+.main_container { max-width: 100%; width: 100%; margin: 0px auto; padding: 0px 10px; 
+box-sizing: border-box;}
+
+.navebar-logo img {max-width: 100%; width: 150px !important;}
+
+.text-portion {padding-top: 15px; box-sizing: border-box;}
+
+.heading-portion { padding-bottom: 0px; box-sizing: border-box;  
+font-size: 20px !important;}
+
+.featured.heading-portion { font-size: 15px !important;}
+
+.featured.sub-heading-portion { font-size: 20px !important; 
+        padding-bottom:0px; box-sizing: border-box;}
+
+.banner-p {font-size: 12px ; margin-bottom: 10px;}
+
+.featured.banner-p { font-size: 13px;}
+
+.banner.nav-elements { font-size: 11px !important; margin-bottom: 15px;}
+
+.sub.banner-p { font-size: 12px;}
+
+.image5 {max-width: 100%; width: 90px;}
+
+.image-portion { padding-top: 15px; box-sizing: border-box;}
+
+.slick-prev, .slick-next {display: none !important; }
+
+.bookfreeland-span { font-size: 12px;}
+
+.sub.bookfreeland-span { font-size: 12px !important;}
+
+.growth.heading-portion {font-size: 18px !important;}
+
+.cards.heading-portion { font-size: 17px !important;}
+
+.growth-p { font-weight: 400; font-size: 12px; margin-top: 10px;}
+
+.businesscard-span { font-size: 12px !important;}
+
+.businesscard-span { font-size: 14px !important;}
+
+.businesscard.growth-span { padding-top: 5px; padding-bottom: 5px;
+font-family: "Poppins"; font-size: 12px !important;}
+
+.businesscard.growth-span { padding-top: 5px; padding-bottom: 5px;
+font-size: 12px !important;}
+
+.estimate.bookfreeland-span{font-size: 12px !important;}
+
+.businesscard-span { margin-top: 15px !important; display: block;}
+
+.heading-portion.letsbuildh2 {font-size: 20px !important; padding: 15px 0px;}
+
+.letsbuild { padding: 10px 0px !important; margin-bottom: 10px;}
+
+    .bg-bookfreeland { height: auto;}
+    .business-card {
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1), 0px 8px 8px 0px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;}
+
+.growth-business:first-child { margin-top: 50px !important;}
+
+.business-card.business-card-1,
+.business-card.business-card-2,
+.business-card.business-card-3,
+.business-card.business-card-4, 
+.business-card.business-card-5,
+.business-card.business-card-6,
+.business-card.business-card-7 { background-size: auto 150px;}
+
+.itstaff.heading-portion { font-size: 20px !important;}
+
+.coworker{margin-bottom: 0px !important;}
+
+.bookfreeland.slide-item{padding: 0px 7px !important;}
+
+.bookfreeland .month, .bookfreeland .day, .bookfreeland .year{font-size: 15px;}
+
+.available.heading-portion { font-size: 20px !important;}
+
+.itstaff.banner-p { font-size: 14px; margin-bottom: 10px;}
+
+.custom-list .list-items { font-size: 12px; line-height: 30px; line-height: 19px;}
+
+.option.heading-portion { font-size: 17px !important; padding-bottom: 0px !important;}
+
+.option.growth-p {font-size: 12px;}
+
+}
+ 
+@media only screen and (min-width: 415px) and (max-width:777px) {
+    .heading-portion { padding-bottom: 10px; font-size: 23px !important;}
+
+    .itstaff.heading-portion { font-size: 23px !important; padding-bottom: 10px;}
+
+    .available.heading-portion { font-size: 23px !important;}
+
+    .featured.heading-portion { font-size: 23px !important;}
+
+    .option.heading-portion { font-size: 19px !important; 
+        padding-bottom: 5px !important; white-space: nowrap; }
+
+    .banner-p { font-size: 14px; margin-bottom: 10px;}
+
+    .bookfreeland .month, .bookfreeland .day, .bookfreeland .year{font-size: 19px;}
+
+    .estimate.bookfreeland-span{font-size: 14px !important;}
+
+    .custom-list .list-items { font-size: 14px; line-height: 25px;}
+
+    .banner.nav-elements { font-size: 12px !important; margin-bottom: 18px;}
+
+    .option.growth-p { font-size: 14px;}
+
+    .image5 { max-width: 100%; width: 110px;}
+
+    .sub.banner-p { font-size: 14px;}
+
+    .image5 { max-width: 100%; width: 110px; margin-bottom: 7px;}
+
+    .cards.heading-portion { font-size: 24px !important;}
+    .bookfreeland-span { font-size: 14px; }
+    .sub.bookfreeland-span { font-size: 14px !important;}
+
+    .growth.heading-portion { font-size: 25px !important; }
+    .business-card.business-card-1,
+    .business-card.business-card-2,
+    .business-card.business-card-3,
+    .business-card.business-card-4, 
+    .business-card.business-card-5,
+    .business-card.business-card-6,
+    .business-card.business-card-7 { background-size: auto 150px;}
+    .growth-p { font-weight: 400; font-size: 14px; margin-top: 15px;}
+
+    .businesscard.growth-span { font-size: 14px !important;}
+
+    .businesscard-span {
+        font-size: 17px !important;
+    }
+ } 
+
+@media only screen and (min-width: 778px) and (max-width:900px) {
+.heading-portion { padding-bottom: 0px; font-size: 32px !important;}
+
+.itstaff.heading-portion { font-size: 28px !important; padding-bottom: 10px;}
+
+.featured.heading-portion { font-size: 32px !important; 
+    padding-bottom:10px;}
+
+.available.heading-portion { font-size: 28px !important;}
+
+.option.heading-portion { font-size: 20px !important; 
+    padding-bottom: 10px !important; white-space: wrap; }
+
+.custom-list .list-items { font-size: 16px; line-height:28px;}
+
+.banner-p { font-size: 17px; margin-bottom: 18px;}
+
+.itstaff.banner-p { font-size: 17px; margin-bottom: 18px;}
+
+.estimate.bookfreeland-span{font-size: 17px !important;}
+
+.bookfreeland .month, .bookfreeland .day, .bookfreeland .year{font-size: 19px;}
+
+.banner.nav-elements { font-size: 14px !important; margin-bottom: 25px;}
+
+.option.growth-p { font-size: 17px;}
+
+.image5 {width: 120px;}
+
+.sub.banner-p { font-size: 17px;}
+
+.bookfreeland-span { font-size: 17px;}
+
+.sub.bookfreeland-span { font-size: 16px !important;}
+
+.cards.heading-portion{font-size: 19px !important;}
+
+.growth.heading-portion { font-size: 26px !important;}
+
+.growth-p { font-size: 16px; margin-top: 17px;}
+.business.card-body { padding: 17px 25px !important;}
+.businesscard-span { margin-top: 20px !important; font-size: 17px !important;}
+
+.businesscard.growth-span { padding-top: 5px !important; padding-bottom: 5px !important; 
+font-size: 16px !important;}
+
+.heading-portion.letsbuildh2 { font-size: 28px !important; padding: 17px 25px;}
+
+.featured.sub-heading-portion { font-size: 18px !important;}
+    
+}
+
+@media only screen and (min-width: 901px) and (max-width:1200px) {
+    .heading-portion {font-size: 37px !important; }
+
+    .featured.heading-portion { font-size: 37px !important;}
+        
+        .bg-bookfreeland {height:auto;}
+
+        .growth.heading-portion { font-size: 29px !important;}
+
+        .cards.heading-portion{font-size: 21px !important;}
+
+        .estimate.bookfreeland-span{font-size: 17px !important;}
+        
+        .bookfreeland .month, .bookfreeland .day, .bookfreeland .year{font-size: 20px;}
+
+        .banner-cardbox:nth-child(2) { z-index: 1; left: 15px; right: 0px;}   
+        
+        .growth-p { font-size: 19px; margin-top: 17px;}
+        
+
+        .text-portion {padding-top: 30px; box-sizing: border-box; }
+        
+        .image-portion{padding-top: 20px; box-sizing: border-box;}
+
+    .business-card.business-card-1,
+    .business-card.business-card-2,
+    .business-card.business-card-3,
+    .business-card.business-card-4, 
+    .business-card.business-card-5,
+    .business-card.business-card-6,
+    .business-card.business-card-7 { background-size: auto 200px;}
+
+    .businesscard-span { margin-top: 20px !important; font-size: 17px !important;}
+
+.businesscard.growth-span { padding-top: 5px !important; padding-bottom: 5px !important; 
+font-size: 16px !important;}
+
+.featured.sub-heading-portion { font-size: 20px !important;}
+
+    }
+
+    
+    @media only screen and (min-width: 1081px) and (max-width:1094px) {
+
+.banner-cardbox:nth-child(2) { z-index: 1; left: 12px; right: 0px;}
+    
+    }
+
+    @media only screen and (min-width: 768px) and (max-width:777px) {
+        .option.heading-portion { white-space:wrap;}
+    }
+
+    @media only screen and (min-width: 901px) and (max-width:1100px) {
+    .option.heading-portion { font-size: 22px !important;}
+    
+    .option.growth-p { font-size: 20px !important;}
+    
+    }
